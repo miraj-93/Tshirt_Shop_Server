@@ -317,7 +317,7 @@ app.get("/api/blogs/search", async (req, res) => {
 run().catch(console.dir);
 
 app.get("/", (req, res) => {
-  res.send("Welcome to T-Shirt Shop");
+  res.send("Welcome to T-Shirt Shop;Developed by Miraj Khan");
 });
 
 app.listen(port, () => {
